@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Formulario</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Francois+One|Fredoka+One|Lobster+Two|Permanent+Marker|Satisfy|Shrikhand" rel="stylesheet">
+    <!-- Estilos CSS personalizados -->
+    <link rel="stylesheet" href="css/estilosReg.css">  
+    <script src="https://use.fontawesome.com/029800bb10.js"></script>
+    <script src="js/validar.js"></script>
+
+</head>
+<body>
+<header id="header">
+	<div class="container-left">
+  <div class="page-header">
+   <h1 id="font" style="color:#60366F; font-family: 'Fredoka One', cursive;"><strong>Registrar Usuario</strong>
+   <i class="m-2 my-1 fa fa-id-card-o" aria-hidden="true"></i></h1>
+
+     
+  </div>      
+</div>
+</header><!-- /header -->
+
+<form action="" class="form-register" onsubmit = "return validar();">
+<h2 style="font-family: 'Fredoka One', cursive;">Registro</h2>
+<input type="text" id="nombre" name="Nombre" placeholder="Nombres Apellidos" required>
+
+<input type="text" id="correo" name="Correo" placeholder="Correo Electronico" required>
+<input type="text" id="telefono" name="telefono" placeholder="Telefono">
+<input type="text" id="direccion" name="direccion" placeholder="Direccion" required></input>
+<input type="text" id="contraseña" name="password"  placeholder="password" reqired>
+<input type="text" id="repetir"  name="Confirmar Password"  placeholder="confirmar password" required>
+<input style="font-family: 'Fredoka One', cursive;" type="submit" value="Enviar" class="btn-enviar" id="boton">
+</form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script src="js/javascript.js"></script>
+
+</body>
+</html>
