@@ -1,16 +1,6 @@
-/*
-ESTILOS.CSS
-
-Blog:  www.render2web.com
-Autor:  José Andrés Montoya
-Canal: www.youtube.com/render2web
-
-Suscríbete a mi canal, redes y sitio web, de esta manera apoyas mi trabajo
-*/
-
-html,
-body {
-    height: 100%;
+body{
+    margin:0;
+    padding: 0;
 }
 
 
@@ -19,15 +9,16 @@ img {
 }
 
 
-
-
 .contenido-seccion {
     padding: 5rem 0;
 }
 
 #acerca-de {
-    background: url('../img/banerObsequio.jpg');
-    background: cover;
+    background: url('../img/banerObsequio.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: contain;
+
 }
 .nav-link{
 
@@ -92,8 +83,8 @@ text-align: center;
 .nav-item{
     font-size: 15px;
     font-family: 'Fredoka One', cursive;
-    padding: 5px;
-    margin: 10px;
+    
+    margin-left: 2px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
